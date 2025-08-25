@@ -36,9 +36,7 @@ let isLearning = true; // TypeScript infers this is a boolean
  */
 // message = 123; // Error: Type 'number' is not assignable to type 'string'
 
-// ========================================
 // PART 3: Explicit Type Annotations - You Tell TypeScript the Type
-// ========================================
 
 /**
  * Sometimes you want to be explicit about types.
@@ -54,9 +52,7 @@ let explicitIsLearning: boolean = true;
  */
 // explicitCount = "not a number"; // Error: Type 'string' is not assignable to type 'number'
 
-// ========================================
 // PART 4: Multiple Variable Declaration
-// ========================================
 
 /**
  * You can declare multiple variables at once
@@ -69,9 +65,7 @@ let city: string = "New York";
 let population: number = 8419000;
 let isCapital: boolean = false;
 
-// ========================================
 // PART 5: Constants with const
-// ========================================
 
 /**
  * const works just like in JavaScript, but TypeScript is smarter
@@ -86,9 +80,8 @@ const BIRTH_YEAR = 1990; // TypeScript infers this as 1990 (literal type)
  */
 // PI = 3.14; // Error: Cannot assign to 'PI' because it is a constant
 
-// ========================================
+
 // PART 6: Any Type - The Escape Hatch (USE SPARINGLY!)
-// ========================================
 
 /**
  * 'any' disables type checking. Use it only when absolutely necessary,
@@ -106,9 +99,8 @@ console.log("Flexible variable can be anything:", flexible);
  * Prefer 'unknown' (we'll learn later) if you really don't know the type.
  */
 
-// ========================================
+
 // PART 7: Template Strings (Same as JavaScript)
-// ========================================
 
 let userName = "TypeScript Learner";
 let learningDays = 1;
@@ -117,9 +109,8 @@ let learningDays = 1;
 let introduction = `Hi, I'm ${userName} and I've been learning TypeScript for ${learningDays} day(s)!`;
 console.log(introduction);
 
-// ========================================
+
 // PART 8: Understanding TypeScript Errors
-// ========================================
 
 /**
  * TypeScript errors are your friends! They help you catch bugs early.
@@ -140,9 +131,8 @@ let myAge: number = 25;
 //     return data.length;
 // }
 
-// ========================================
+
 // PART 9: Compilation - From TypeScript to JavaScript
-// ========================================
 
 /**
  * TypeScript code needs to be compiled to JavaScript to run.
@@ -156,9 +146,7 @@ let myAge: number = 25;
  * after compilation - all the type annotations are gone!
  */
 
-// ========================================
 // PRACTICE EXERCISES
-// ========================================
 
 /**
  * EXERCISE 1: Variable Declaration
@@ -216,9 +204,7 @@ let inferredMixedArray = [1, "two", true]; // Type: _______
 // inferredArray: number[]
 // inferredMixedArray: (string | number | boolean)[]
 
-// ========================================
 // BONUS: typeof Operator
-// ========================================
 
 /**
  * You can use JavaScript's typeof operator at runtime,
@@ -232,20 +218,18 @@ console.log(`type of yourAge: ${typeof yourAge}`);
 console.log(`type of isStudent: ${typeof isStudent}`);
 console.log(`type of favoriteLanguages: ${typeof favoriteLanguages}`); // "object" - arrays are objects in JS!
 
-// ========================================
 // SUMMARY
-// ========================================
 
 /**
  * Today you learned:
- * ✅ TypeScript is JavaScript with types
- * ✅ Type inference - TypeScript guesses types
- * ✅ Type annotations - You explicitly set types
- * ✅ Basic types: string, number, boolean, array
- * ✅ const vs let for variable declaration
- * ✅ The 'any' type (and why to avoid it)
- * ✅ How to read TypeScript errors
- * ✅ TypeScript needs compilation to run
+ *  TypeScript is JavaScript with types
+ *  Type inference - TypeScript guesses types
+ *  Type annotations - You explicitly set types
+ *  Basic types: string, number, boolean, array
+ *  const vs let for variable declaration
+ *  The 'any' type (and why to avoid it)
+ *  How to read TypeScript errors
+ *  TypeScript needs compilation to run
  * 
  * Next Lesson: Primitive Types in Depth! 
  * We'll explore string, number, and boolean with all their nuances.
