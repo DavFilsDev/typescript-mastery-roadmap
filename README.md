@@ -137,16 +137,15 @@ npm run type-check
 - [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
 - [GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
 
-## 🔧 Configuration Files
+## 🏃‍♂️ How to Run TypeScript Files
 
-### tsconfig.json Highlights
-```json
-{
-  "strict": true,              // Maximum type safety
-  "noUnusedLocals": true,      // Catch unused variables
-  "noUnusedParameters": true,  // Catch unused parameters
-  "noImplicitReturns": true    // Ensure all paths return a value
-}
+### Method 1: Using tsx (Recommended)
+```bash
+# Run a file once
+npx tsx 01-basics/01-hello-world.ts
+
+# Run with watch mode (auto-restart on changes)
+npx tsx watch 01-basics/01-hello-world.ts
 ```
 
 ## 📝 How to Use This Repository Effectively
@@ -172,7 +171,7 @@ npm run type-check
 Copy this to your own repository to track progress:
 
 - [ ] Phase 1: Basics
-  - [ ] Hello World & Basic Types
+  - [x] Hello World & Basic Types
   - [ ] Functions & Objects
   - [ ] Union & Literal Types
   - [ ] Basic Exercises Completed
