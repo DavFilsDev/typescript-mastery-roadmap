@@ -166,33 +166,6 @@ npx tsx watch 01-basics/01-hello-world.ts
 // Enable "strict" mode for better error catching
 ```
 
-## 📊 Progress Tracker
-
-Copy this to your own repository to track progress:
-
-- [ ] Phase 1: Basics
-  - [x] Hello World & Basic Types
-  - [ ] Functions & Objects
-  - [ ] Union & Literal Types
-  - [ ] Basic Exercises Completed
-
-- [ ] Phase 2: Intermediate
-  - [ ] Interfaces & Classes
-  - [ ] Generics Basics
-  - [ ] Type Guards
-  - [ ] Intermediate Exercises
-
-- [ ] Phase 3: Advanced
-  - [ ] Advanced Generics
-  - [ ] Conditional Types
-  - [ ] Mapped Types
-  - [ ] Decorators
-
-- [ ] Phase 4: Projects
-  - [ ] Todo App
-  - [ ] Weather API Client
-  - [ ] Express Server
-
 ## 🤔 Common Questions
 
 **Q: How long will this take?**  
