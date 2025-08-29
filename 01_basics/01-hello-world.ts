@@ -10,16 +10,16 @@
  */
 
 // PART 1: Your First TypeScript Code
-
+console.log("PART 1: Your First TypeScript Code");
 /**
  * This is a simple console.log - just like in JavaScript!
  * TypeScript is a superset of JavaScript, so all JavaScript code 
  * is valid TypeScript code.
  */
 console.log("Hello, TypeScript! 🚀");
+console.log("----------------------");
 
-// PART 2: Type Inference - TypeScript Guesses the Type
-
+console.log("PART 2: Type Inference - TypeScript Guesses the Type");
 /**
  * TypeScript is smart! It can infer (guess) the type of your variables.
  * Hover over 'message' in VS Code to see what TypeScript thinks.
@@ -36,8 +36,7 @@ let isLearning = true; // TypeScript infers this is a boolean
  */
 // message = 123; // Error: Type 'number' is not assignable to type 'string'
 
-// PART 3: Explicit Type Annotations - You Tell TypeScript the Type
-
+console.log("PART 3: Explicit Type Annotations - You Tell TypeScript the Type");
 /**
  * Sometimes you want to be explicit about types.
  * This is especially useful for function parameters and complex objects.
@@ -52,8 +51,7 @@ let explicitIsLearning: boolean = true;
  */
 // explicitCount = "not a number"; // Error: Type 'string' is not assignable to type 'number'
 
-// PART 4: Multiple Variable Declaration
-
+console.log("PART 4: Multiple Variable Declaration");
 /**
  * You can declare multiple variables at once
  */
