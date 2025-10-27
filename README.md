@@ -119,17 +119,6 @@ npm run type-check
 └── 03-third-party/           # Using external types
 ```
 
-### Phase 5: Real-World Projects (Weeks 8-10)
-```
-📁 05-real-world-projects/
-├── 01-todo-app/              # CRUD application
-│   ├── src/
-│   ├── types/
-│   └── tests/
-├── 02-weather-api/           # API integration
-└── 03-express-server/        # Backend API
-```
-
 ## 💻 VS Code Extensions (Recommended)
 
 - [TypeScript Nightly](https://marketplace.visualstudio.com/items?itemName=ms-vscode.vscode-typescript-next)
