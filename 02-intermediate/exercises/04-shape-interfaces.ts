@@ -1,5 +1,5 @@
 /**
- * EXERCISE 1: Shape Interfaces
+ * EXERCISE 4: Shape Interfaces
  * 
  * Create interfaces for different shapes and calculate their area
  */
